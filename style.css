@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-bar {
+    height: 50px;
+    background: linear-gradient(to right,rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons i {
+    margin: 10px;
+    color: #055f88;
+}
+
+.line {
+    width: 5px;
+    height: 50px;
+    background-color: #055f88;
+}
+
+.contact-details {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.813rem;
+    color:#055f88;
+}
+
+.contact-details p {
+    margin: 0 20px;
+}
+
+.consult-button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #055f88;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 0.875rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+
+#navbar {
+    max-width: 80vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 35px;
+}
+
+.nav-logo p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.nav-links {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.buy-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+    background-color: yellow;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-search input {
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+
+.nav-search i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Banner */
+
+.banner-bg {
+    height: 600px;
+    background-image: url("banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(1px);
+}
+
+.bars {
+    width: 5px;
+    background: linear-gradient(to bottom, rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+    height: 250px;
+    position: absolute;
+    left: -3%;
+}
+
+.banner-text {
+    max-width: 80vw;
+    position: absolute;
+    color: #2f95c5;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 60%;
+}
+
+.banner-text h1, h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.banner-text p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.read-more {
+    background: linear-gradient(to right,rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 0.875rem;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+/* Work */
+
+#work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+}
+
+.work-details {
+    max-width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.work-details i {
+    font-size: 3.125rem;
+}
+
+.business {
+    position: relative;
+}
+
+.business h3 {
+    position: absolute;
+    font-size: 1.875rem;
+    top: 5%;
+    left: 20%;
+}
+
+.business p {
+    padding-top: 10px;
+}
+
+.support {
+    position: relative;
+}
+
+.support h3 {
+    position: absolute;
+    font-size: 1.875rem;
+    top: 5%;
+    left: 20%;
+}
+
+.support p {
+    padding-top: 10px;
+}
+
+.time-management {
+    position: relative;
+}
+
+.time-management h3 {
+    position: absolute;
+    font-size: 1.875rem;
+    top: 5%;
+    left: 20%;
+}
+
+.time-management p {
+    padding-top: 10px;
+}
+
+/* About */
+.about-us-img {
+    display: flex;
+}
+
+.box{
+    position: absolute;
+    right: 13%;
+    bottom: -81%;
+    width: 550px;
+    height: 100px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0, 238, 255, 0.644),rgb(249, 194, 92)) ;
+}
+
+.about-us-img img {
+    position: absolute;
+    right: 16%;
+    bottom: -81%;
+    height: 500px;
+}
+
+.about-us-details {
+    max-width: 80vw;
+    padding-top: 50px;
+}
+
+.heading {
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.about-us-details h3 {
+    width: 550px;
+    padding-top: 20px;
+}
+
+.small-line {
+    width: 65px;
+    height: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+}
+
+.about-us-details p {
+    width: 550px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.service-section {
+    max-width: 80vw;
+}
+
+.service-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.service-details img {
+    width: 300px;
+    height: 200px;
+}
+
+.service-box1 {
+    position: absolute;
+    top: 240%;
+    left: 12.9%;
+    width: 250px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.service-icon .circle1 {
+    position: absolute;
+    top: 240%;
+    left: 12.9%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+    z-index: 1;
+}
+
+.circle1 i {
+    position: absolute;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.service-heading1 {
+    position: absolute;
+    text-transform: uppercase;
+    top: 241%;
+    left: 15%;
+    font-size: 1rem;
+    transform: translate(50%, 50%);
+    color: #000;
+    z-index: 1;
+}
+
+.service-box2 {
+    position: absolute;
+    top: 240%;
+    left: 44.5%;
+    width: 250px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.service-icon .circle2 {
+    position: absolute;
+    top: 240%;
+    left: 44.5%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+    z-index: 1;
+}
+
+.circle2 i {
+    position: absolute;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.service-heading2 {
+    position: absolute;
+    text-transform: uppercase;
+    top: 241%;
+    left: 43.5%;
+    transform: translate(50%, 50%);
+    color: #000;
+    z-index: 1;
+}
+
+.service-box3 {
+    position: absolute;
+    top: 240%;
+    left: 73.8%;
+    width: 250px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.service-icon .circle3 {
+    position: absolute;
+    top: 240%;
+    left: 73.8%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+    z-index: 1;
+}
+
+.circle3 i {
+    position: absolute;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.service-heading3 {
+    position: absolute;
+    text-transform: uppercase;
+    top: 241%;
+    left: 74.8%;
+    transform: translate(50%, 50%);
+    color: #000;
+    z-index: 1;
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, rgba(0, 238, 255, 0.644),rgb(249, 194, 92));
+    border-radius: 20px;
+}
